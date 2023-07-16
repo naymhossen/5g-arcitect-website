@@ -1,0 +1,158 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.text-light-gray {
+    color: #727272;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+
+/* header styles */
+
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner styles */
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* main style */
+
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
+/* <!-- teams sections start --> */
+
+.team-container{
+    display: flex;
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.list{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.features{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.team-details{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.50rem;
+}
+
+
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav,
+    .team-container{
+        flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .team-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+
+
+    }
+    /* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width: 960px) {
+    header {
+        padding: 50px;
+    }
+    nav,
+    .team-container{
+        flex-direction: column;
+    }
+}
