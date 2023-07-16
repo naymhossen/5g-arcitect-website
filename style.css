@@ -135,18 +135,51 @@ main{
     font-weight: 600;
     color: #131313;
     }
-    .featurs-text-container .cards{
-        padding: 2rem;
-        margin-bottom: 1.25rem;
-        border-radius: 8px;
-        background-color: #fff;
-        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+.features-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    border-left: 5px solid #FF900E ;
+    padding-left: 1.25rem;
     }
-    .feature-img img{
-        height: 90%;
-        margin-left: 90px;
+.featurs-text-container .cards{
+    padding: 2rem;
+    margin-bottom: 1.25rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    }
+.feature-img img{
+    height: 90%;
+    margin-left: 90px;
     }
     
+.ten-year-badges{
+    background-color: #FF900E;
+    border-radius: 8px;
+    width: 342px;
+    padding:46px 42px ;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    margin-left: -60px;
+
+}
+.ten-year-badges h3{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 4rem;
+}
+.ten-year-badges p{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    text-align: center;
+    
+}
 
 
 /* some fscts section style */
