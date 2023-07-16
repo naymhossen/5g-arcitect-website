@@ -122,8 +122,39 @@ main{
     font-size: 3rem;
 }
 
+/*  <!-- featurs section start --> */
+
+.featurs-section-container{
+    display: flex;
+    margin-top: 6rem;
+    gap: 5.50rem;
+}
+
+.featurs-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    }
+    .featurs-text-container .cards{
+        padding: 2rem;
+        margin-bottom: 1.25rem;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    }
+    .feature-img img{
+        height: 90%;
+        margin-left: 90px;
+    }
+    
+
 
 /* some fscts section style */
+
+.some-facts{
+    margin-left: 2rem;
+    margin-top: 1.25rem;
+}
 
 .facts-card-container{
     display: flex;
