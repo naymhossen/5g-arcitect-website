@@ -9,9 +9,6 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.text-light-gray {
-    color: #727272;
-}
 .section-title {
     font-size: 2.8rem;
     font-weight: 700;
@@ -230,6 +227,7 @@ main{
     gap: 2.50rem;
 }
 
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -237,6 +235,8 @@ main{
         padding: 20px;
     }
     nav,
+    .sponsor-icon-container,
+    .featurs-section-container,
     .team-container{
         flex-direction: column;
     }
@@ -254,13 +254,11 @@ main{
         gap: 1rem;
     }
 
-    /* sponsor style */
+    /* <!-- featurs section start --> */
 
-    .sponsor-icon-container{
-        flex-direction: column;
+    .features-pic{
+        width: 100%;
     }
-
-
 
 
     }
@@ -288,5 +286,8 @@ main{
     .sponsor-icon-container{
       display: grid;
       /* grid-template-columns: repeat(2, 1fr); */
+    }
+    .features-pic{
+        width: 100%;
     }
 }
